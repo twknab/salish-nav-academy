@@ -1,0 +1,4 @@
+project_id = "your-existing-project-id"
+# region        = "us-west1"
+# public        = true
+# max_instances = 2
