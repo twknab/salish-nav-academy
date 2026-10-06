@@ -1,5 +1,8 @@
 {
   "name": "salish-nav-academy",
+  "description": "Interactive paper-chart navigation trainer for sea kayakers in Puget Sound and the Salish Sea.",
+  "license": "UNLICENSED",
+  "author": "IYDL, LLC (dba Ideal Intelligence)",
   "private": true,
   "version": "0.1.0",
   "type": "module",

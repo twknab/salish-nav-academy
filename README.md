@@ -1,5 +1,7 @@
 # Salish Nav Academy
 
+**Interactive paper-chart navigation trainer for sea kayakers in Puget Sound and the Salish Sea.**
+
 An interactive trainer for **paper-chart navigation for sea kayakers** in Puget Sound and the
 Salish Sea. It has 13 modules and a printable cheat sheet: chart symbols, kayak-specific hazards,
 measuring nautical miles on the latitude scale, true vs. magnetic bearings, Pacific Northwest
@@ -42,3 +44,7 @@ spec, plan, tasks).
 - **Feature 2: Float plan builder.** Turn a planned route into a float plan to leave with someone
   ashore.
 - Possible integration of parts of this into RoamGuru.
+
+## License
+
+Proprietary. Copyright (c) 2026 IYDL, LLC (dba Ideal Intelligence). All rights reserved. See [LICENSE](LICENSE).
