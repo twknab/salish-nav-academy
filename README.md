@@ -25,6 +25,12 @@ npm run artifact   # build + dist/artifact.html (body-only page for publishing a
 `npm run build` produces **one self-contained `dist/index.html`**. Open it straight from disk. It
 needs no network access.
 
+## Hosting
+
+A `Dockerfile` serves the built page from nginx on port 8080, and `infra/terraform/` creates a
+public, scale-to-zero Cloud Run service for it. `npm run deploy` builds and rolls out a new image.
+See [`infra/terraform/README.md`](infra/terraform/README.md) for the runbook.
+
 ## How it is built
 
 - Vite + React + TypeScript (strict), with no UI framework.
